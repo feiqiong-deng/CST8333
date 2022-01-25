@@ -1,9 +1,7 @@
-import java.util.*
-
 data class PipelineRecord(
     val number: String,
     val types: String,
-    val date: Date,
+    val date: String,
     val centre: String,
     val province: String,
     val company: String,
